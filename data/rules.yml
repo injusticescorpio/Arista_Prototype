@@ -34,6 +34,7 @@ rules:
     - requested_slot: null
 # The actions we want to run when the form is submitted.
   - action: action_hospital
+  - action: action_restart
 
 #Covid 19 Tracker........
 - rule: covid_19
@@ -53,6 +54,7 @@ rules:
     - requested_slot: null
 # The actions we want to run when the form is submitted.
   - action: action_place
+  - action: action_restart
 
 
 
@@ -75,3 +77,4 @@ rules:
     - requested_slot: null
 # The actions we want to run when the form is submitted.
   - action: action_symptoms
+  - action: action_restart
